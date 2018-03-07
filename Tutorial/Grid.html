@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Tutorial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+
+<body>
+
+    <div class="w3-container w3-teal">
+        <h1>W3.CSS Responsiveness and Grid System</h1>
+    </div>
+
+    <!-- w3-row -->
+
+    <div class="w3-container">
+        <h2>w3-row</h2>
+    </div>
+    <div class="w3-row">
+        <div class="w3-half w3-container w3-green">
+            <h4>w3-half</h4>
+        </div>
+        <div class="w3-half w3-container w3-blue">
+            <h4>w3-half</h4>
+        </div>
+    </div>
+
+    <div class="w3-row">
+        <div class="w3-third w3-container w3-green">
+            <h4>w3-third</h4>
+        </div>
+        <div class="w3-twothird w3-container w3-blue">
+            <h4>w3-twothird</h4>
+        </div>
+    </div>
+
+    <div class="w3-row">
+        <div class="w3-green w3-container w3-quarter">
+            <h4>w3-quarter</h4>
+        </div>
+
+        <div class="w3-container w3-threequarter w3-blue">
+            <h4>w3-threequarter</h4>
+        </div>
+    </div>
+
+<!-- w3-row-padding -->
+    <div class="w3-container">
+        <h2>w3-row-padding</h2>
+    </div>
+
+    <div class="w3-row-padding">
+        <div class="w3-half w3-container w3-green">
+            <h4>w3-half</h4>
+        </div>
+        <div class="w3-half w3-container w3-blue">
+            <h4>w3-half</h4>
+        </div>
+    </div>
+
+    <div class="w3-row-padding">
+        <div class="w3-third w3-container w3-green">
+            <h4>w3-third</h4>
+        </div>
+        <div class="w3-twothird w3-container w3-blue">
+            <h4>w3-twothird</h4>
+        </div>
+    </div>
+
+    <div class="w3-row-padding">
+        <div class="w3-green w3-container w3-quarter">
+            <h4>w3-quarter</h4>
+        </div>
+
+        <div class="w3-container w3-threequarter w3-blue">
+            <h4>w3-threequarter</h4>
+        </div>
+    </div>
+
+    <!-- Responsive Show/Hide -->
+
+    <div class="w3-content" style="width: 800px">
+        <h4>row-content: 800px</h4>
+        <div class="w3-hide-small w3-container">
+            <p>w3-hide-small</p>
+        </div>
+        <div class="w3-hide-medium w3-container">
+            <p>w3-hide-medium</p>
+        </div>
+        <div class="w3-hide-large w3-container">
+            <p>w3-hide-large</p>
+        </div>
+    </div>
+
+    <!-- Nested Row -->
+<div class="w3-container">
+    <h2>Nested Row</h2>
+</div>
+<div class="w3-row">
+        <div class="w3-half w3-container">
+          <h4>w3-half</h4>
+          <div class="w3-row">
+            <div class="w3-third w3-container w3-red">
+              <h6>w3-third</h6> 
+              <p>This is a paragraph.</p>
+            </div>
+            <div class="w3-twothird w3-container w3-green">
+              <h6>w3-twothird</h6> 
+              <p>This is a paragraph.</p>
+            </div>
+          </div>
+        </div>
+        <div class="w3-half w3-container">
+          <h4>w3-half</h4>
+          <div class="w3-row">
+            <div class="w3-quarter w3-container w3-red">
+              <h6>w3-quarter</h6> 
+              <p>This is a paragraph.</p>
+            </div>
+            <div class="w3-threequarter w3-container w3-green">
+              <h6>w3-threequarter</h6> 
+              <p>This is a paragraph.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+
+<!-- Col/Rest -->
+<div class="w3-container">
+        <h2>Col/Rest</h2>
+    </div>
+      <div class="w3-row">
+            <div class="w3-col" style="width:150px"><p>w3-col: 150px</p></div>
+            <div class="w3-rest w3-green"><p>w3-rest</p></div>
+        </div>
+
+        <div class="w3-row">
+                <div class="w3-col w3-green" style="width:20%"><p>20%</p></div>
+                <div class="w3-col" style="width:60%"><p>60%</p></div>
+                <div class="w3-col w3-green" style="width:20%"><p>20%</p></div>
+            </div>
+
+            <!-- Hide/Show -->
+            <div class="w3-container">
+                    <h2>w3-hide-: small, medium, large</h2>
+                </div>
+
+            <div class="w3-container w3-hide-small w3-red">
+                    <p>w3-hide-small will be hidden on small screens (phones)</p>
+                  </div>
+                  
+                  <div class="w3-container w3-hide-medium w3-green">
+                    <p>w3-hide-medium will be hidden on medium screens (tablets)</p>
+                  </div>
+                  
+                  <div class="w3-container w3-hide-large w3-blue">
+                    <p>w3-hide-large will be hidden on large screens (laptops/desktop)</p>
+                  </div>
+
+            <!-- w3-mobile -->
+            <div class="w3-container">
+                    <h2>Mobile</h2>
+                </div>
+            <a class="w3-button w3-mobile" href="#">w3-mobile</a>
+</body>
+
+</html>
