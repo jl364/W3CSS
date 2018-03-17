@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Tutorial</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="css/w3.css">
+
+<body class="w3-content" style="max-width:800px; margin-bottom:20px;">
+
+    <div class="w3-container w3-teal">
+        <h1>W3.CSS List</h1>
+    </div>
+
+    <h3>Basic List</h3>
+    <ul class="w3-ul">
+        <li>Jill</li>
+        <li>Eve</li>
+        <li>Adam</li>
+    </ul>
+
+    <h3>Bordered List with heading</h3>
+    <ul class="w3-ul w3-border">
+        <li>
+            <h3>Names</h3>
+        </li>
+        <li>Jill</li>
+        <li>Eve</li>
+        <li>Adam</li>
+    </ul>
+
+    <h3>List as card</h3>
+    <ul class="w3-ul w3-card-4" style="width:50%">
+        <li>Jill</li>
+        <li>Eve</li>
+        <li>Adam</li>
+    </ul>
+
+    <h3>Hoverable List</h3>
+    <ul class="w3-ul">
+        <li class="w3-green w3-hover-red">Jill</li>
+        <li class="w3-red w3-hover-blue">Eve</li>
+        <li class="w3-blue w3-hover-green">Adam</li>
+    </ul>
+
+
+    <h3>Clickable List items</h3>
+    <ul class="w3-ul w3-border">
+        <li class="w3-display-container">Jill
+            <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-right">&times;</span>
+        </li>
+        <li class="w3-display-container">Eve
+            <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-right">&times;</span>
+        </li>
+        <li class="w3-display-container">Adam
+            <span onclick="this.parentElement.style.display='none'" class="w3-button w3-display-right">&times;</span>
+        </li>
+    </ul>
+
+
+    <h3>Avatar</h3>
+    <ul class="w3-ul w3-border">
+        <li class="w3-bar">
+            <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-xlarge w3-right">&times;</span>
+            <img src="images/img_avatar.png" class="w3-bar-item w3-circle" style="width:85px">
+            <div class="w3-bar-item">
+                <span class="w3-large">Mike</span>
+                <br>
+                <span>Web Designer</span>
+            </div>
+        </li>
+        <li class="w3-bar">
+            <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-xlarge w3-right">&times;</span>
+            <img src="images/img_avatar.png" class="w3-bar-item w3-circle" style="width:85px">
+            <div class="w3-bar-item">
+                <span class="w3-large">Eve</span>
+                <br>
+                <span>Accountant</span>
+            </div>
+        </li>
+        <li class="w3-bar">
+            <span onclick="this.parentElement.style.display='none'" class="w3-bar-item w3-button w3-xlarge w3-right">&times;</span>
+            <img src="images/img_avatar.png" class="w3-bar-item w3-circle" style="width:85px">
+            <div class="w3-bar-item">
+                <span class="w3-large">Jack</span>
+                <br>
+                <span>Developer</span>
+            </div>
+        </li>
+    </ul>
+
+<h3>Large List</h3>
+    <ul class="w3-ul w3-xlarge w3-border w3-hoverable">
+            <li>Jill</li>
+            <li>Eve</li>
+            <li>Adam</li>
+          </ul>
+
+
+</body>
+
+</html>
